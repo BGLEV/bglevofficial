@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Български Дигитален Лев (BGLEV)</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <img src="assets/logo.png" alt="BGLEV Logo" class="logo">
+
+        <h1>БЪЛГАРСКИ ДИГИТАЛЕН ЛЕВ</h1>
+        <h2>Официален токен BGLEV</h2>
+
+        <div class="info">
+            <p><strong>Smart Contract:</strong></p>
+            <p class="contract-address">0xE0BAC5571D06E3aFCdC5B285935D2243b2bB879b</p>
+
+            <button onclick="copyAddress()">Копирай адрес</button>
+        </div>
+
+        <a class="bscscan" href="https://bscscan.com/token/0xE0BAC5571D06E3aFCdC5B285935D2243b2bB879b" target="_blank">
+            Виж в BscScan
+        </a>
+    </div>
+
+<script>
+function copyAddress() {
+    navigator.clipboard.writeText("0xE0BAC5571D06E3aFCdC5B285935D2243b2bB879b");
+    alert("Адресът е копиран!");
+}
+</script>
+
+</body>
+</html>
